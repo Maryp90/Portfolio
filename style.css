@@ -6,9 +6,12 @@
     --default-font-family: 'Poppins', sans-serif;
 }
 
-.hero {
+.hero-background {
     background: var(--secondary-color);
     text-align: center;
+}
+
+.hero {
     padding: 160px 0;
 }
 
@@ -16,6 +19,7 @@
     font-family: var(--default-font-family);
     font-size: 36px;
     font-weight: bold;
+
 }
 
 .hero h2 {
