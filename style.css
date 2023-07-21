@@ -1,33 +1,42 @@
 :root {
     --primary-color: #6c63ff;
-    --secondary-color: #f5f2fe;
+    --secondary-color: #F9F7FE;
     --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    --heading-font-family: 'Playfair Display', serif;
+    --default-font-family: 'Poppins', sans-serif;
 }
 
 body{
-    margin-top: 100px;
+    font-family: var(--default-font-family);
 }
-
-h1, h2, h3 {
-    text-align: center;
-    margin: 0;
+p {
+    font-family: var(--default-font-family);
+    font-weight: normal;
 }
 
 h1 {
+    font-family: var(--heading-font-family);
     font-size: 96px;
-    font-family: 'Playfair Display', serif;
     font-weight: bold;
 }
 
-h2 {
+.hero {
+    background: var(--secondary-color);
+    text-align: center;
+    padding: 160px 0;
+}
+
+.hero p {
+    font-family: var(--default-font-family);
     font-size: 36px;
-    font-family: 'Poppins', sans-serif;
     font-weight: bold;
 }
 
-h3 {
+.hero h2 {
+    font-family: var(--default-font-family);
     font-size: 24px;
-    font-family: 'Poppins', sans-serif;
+    margin-top: 20px;
+    color: #272142;
 }
 
 .website-links {
@@ -53,6 +62,7 @@ h3 {
 .about-me-link {
     color: var(--primary-color);
     border: 1px solid var(--primary-color);
+    background: none;
 }
 
 .homepage-link {
