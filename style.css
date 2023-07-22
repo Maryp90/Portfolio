@@ -13,6 +13,9 @@
 .active {
     color: #6c63ff;
 }
+.nav-link:hover {
+    color: #6c63ff;
+}
 .hero-background {
     background: var(--secondary-color);
     text-align: center;
