@@ -6,9 +6,17 @@
     --default-font-family: 'Poppins', sans-serif;
 }
 
+.nav-link {
+    color: black;
+    opacity: 0.7;
+}
+.active {
+    color: #6c63ff;
+}
 .hero-background {
     background: var(--secondary-color);
     text-align: center;
+    border-radius: 20px;
 }
 
 .hero {
@@ -46,6 +54,10 @@ h2 {
    font-size: 64px;
 }
 
+h3 {
+    text-align: center;
+}
+
 p {
     font-size: 18px;
     font-weight: normal;
@@ -59,6 +71,12 @@ p {
     font-size: 18px;
     line-height: 27px;
     padding: 18px 30px;
+}
+
+.btn-branding:hover {
+    border-radius: 4px;
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
 }
 
 .project-description {
@@ -77,10 +95,49 @@ p {
     padding: 18px 30px;
 }
 
-.contact-link, .launch-app-button {
+.btn-branding-outline:hover {
+    border-radius: 4px;
     background: var(--primary-color);
-    box-shadow: var(--box-shadow);
     color: white;
+}
+
+.work-inquiry {
+    padding: 50px 60px;
+    margin-top: 200px;
+}
+
+.work-together {
+    font-size: 18px;
+    color: #272142;
+    opacity: 0.7;
+    line-height: 30px;
+}
+
+.btn-branding-footer {
+    border-radius: 4px;
+    background: var(--primary-color);
+    color: white;
+    width: 200px;
+    font-size: 18px;
+    line-height: 27px;
+    padding: 18px 30px;
+}
+
+.btn-branding-footer:hover {
+    border-radius: 4px;
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+}
+
+.socials {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.social-media-links {
+    width: 40px; 
+    height: 40px;
+    text-decoration: none;
 }
 
 .about-me-link {
@@ -120,5 +177,13 @@ p {
     .projects {
         padding: 0;
         text-align: center;
+    }
+}
+
+@media (max-width: 960px) {
+    .email {
+        padding: 0;
+        text-align: center;
+        font-size: 18px;
     }
 }
